@@ -1,10 +1,4 @@
-/* 
-    Author: Vijay Thapa;
-    Theme: Restaurant Food Order;
-    version: 1.0;
-*/
 
-/* CSS for All */
 *{
     margin: 0 0;
     padding: 0 0;
@@ -47,7 +41,9 @@ a{
 a:hover{
     color: #ff4757;
 }
-
+.my-3{
+    padding: 30px 0;
+}
 .btn{
     padding: 1%;
     border: none;
@@ -55,6 +51,7 @@ a:hover{
     border-radius: 5px;
 }
 .btn-primary{
+    padding: 15px;
     background-color: #ff6b81;
     color: white;
     cursor: pointer;
@@ -62,6 +59,40 @@ a:hover{
 .btn-primary:hover{
     color: white;
     background-color: #ff4757;
+}
+.btn-secondary{
+    padding: 15px;
+    background-color: #8c8889;
+    color: white;
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    color: white;
+    background-color: #726a6b;
+}
+.btn-info{
+    padding: 15px;
+    padding: 15px;
+    background-color: #39c8e8;
+    color: white;
+    cursor: pointer;
+}
+.space{
+    padding: 25px;
+}
+.btn-info:hover{
+    color: white;
+    background-color: #53eaf4;
+}
+.btn-danger{
+    padding: 15px;
+    background-color: #e84839;
+    color: white;
+    cursor: pointer;
+}
+.btn-danger:hover{
+    color: white;
+    background-color: #f54d4d;
 }
 h2{
     color: #2f3542;
@@ -150,7 +181,10 @@ fieldset{
     float: left;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
+
 
 .food-menu-img{
     width: 20%;
@@ -171,7 +205,19 @@ fieldset{
     font-size: 1rem;
     color: #747d8c;
 }
-
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    }
+    
+.card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+.login{
+    width: 50%;
+    margin: auto;
+}
 
 /* CSS for Social */
 .social ul{
@@ -199,7 +245,22 @@ fieldset{
     margin-bottom: 1%; 
     font-weight: bold;
 }
-
+.alert-success{
+    background-color: rgb(160, 214, 160);
+    color: rgb(25, 89, 25);
+    border-radius: 2px solid rgb(102, 181, 102);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+ .alert-danger{
+    background-color: rgb(215, 160, 160);
+    color: rgb(126, 39, 39);
+    border-radius: 2px solid rgb(165, 64, 64);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
 
 
 /* CSS for Mobile Size or Smaller Screen */
@@ -257,3 +318,23 @@ fieldset{
         width: 100%;
     }
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  .py-4{
+    padding: 20px 0;
+  }
+  img#login {
+    padding: 0 0 0 30vh;
+  }
+ 
+

@@ -1,0 +1,89 @@
+input[type=text], select, input[type=number], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .my-3{
+    padding: 30px 0;
+}
+textarea{
+    padding: 50px;
+    width: 50%;
+}
+
+  .update {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+   margin: 0;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+
+.alert-success{
+    background-color: rgb(160, 214, 160);
+    color: rgb(25, 89, 25);
+    border-radius: 2px solid rgb(102, 181, 102);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+ .alert-danger{
+    background-color: rgb(215, 160, 160);
+    color: rgb(126, 39, 39);
+    border-radius: 2px solid rgb(165, 64, 64);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
